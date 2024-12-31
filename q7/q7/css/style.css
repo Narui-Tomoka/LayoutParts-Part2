@@ -1,1 +1,33 @@
 @charset "UTF-8";
+
+.hukidashi {
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  border: solid 5px #815a0a;
+  border-radius: 30px;
+  background: #fad296;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 20px;
+}
+
+.hukidashi::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 4.7%;
+  border-style: solid;
+  border-color: #815a0a transparent transparent transparent;
+  border-width: 25px 25px 0 25px;
+}
+
+.hukidashi::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 6%;
+  border-style: solid;
+  border-color: #fad296 transparent transparent transparent;
+  border-width: 18px 18px 0 18px;
+}
