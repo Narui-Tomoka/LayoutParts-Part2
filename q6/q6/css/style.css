@@ -27,6 +27,10 @@ li {
   margin: 30px;
 }
 
+li:first-child {
+  margin-left: 0;
+}
+
 header a {
   text-decoration: none;
   color: #ffffff;
