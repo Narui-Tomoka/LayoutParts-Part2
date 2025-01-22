@@ -24,11 +24,7 @@ header {
 }
 
 li {
-  margin: 30px;
-}
-
-li:first-child {
-  margin-left: 0;
+  padding: 30px;
 }
 
 header a {
