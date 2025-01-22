@@ -12,22 +12,21 @@
   padding: 20px;
 }
 
-.hukidashi::before {
+.hukidashi::before, .hukidashi::after {
   content: "";
   position: absolute;
   top: 100%;
-  left: 4.7%;
   border-style: solid;
+}
+
+.hukidashi::before {
+  left: 4.7%;
   border-color: #815a0a transparent transparent transparent;
   border-width: 25px 25px 0 25px;
 }
 
 .hukidashi::after {
-  content: "";
-  position: absolute;
-  top: 100%;
   left: 6%;
-  border-style: solid;
   border-color: #fad296 transparent transparent transparent;
   border-width: 18px 18px 0 18px;
 }
